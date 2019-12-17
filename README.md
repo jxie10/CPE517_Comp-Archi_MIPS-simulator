@@ -11,6 +11,6 @@ The provided shell.c implements several command lines to control the execution o
 •	i | I | input reg_num reg_val: set register (denoted reg_num) to value (reg_val).<br>
 •	? | help: print out a list of all shell commands.<br>
 •	q | Q| quit: quit the shell.<br>
-#Instructions can run:<br>
+# Instructions can run:<br>
 Use MARS to generate opcode and write them into a .txt, need to note *stall*.<br>
 Instruction supply: add, addu, sub , subu, lui, ori, addi, addiu, lw, sw, bgyz, j. Also supply forwarding between ALU calculation operations. But there is some problems in lw forwarding.
